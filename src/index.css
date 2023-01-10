@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  background: linear-gradient(360deg, #52a49a -65.93%, #00cdac 100%);
+}
+.texthead {
+  background: linear-gradient(360deg, #52a49a -65.93%, #00cdac 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.nav {
+  background: rgba(255, 255, 255, 0.85);
+  box-shadow: 0px 2px 22px rgba(82, 164, 154, 0.08),
+    inset 0px -1px 0px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(10px);
+}
+.stat {
+  background: linear-gradient(
+    90deg,
+    #00d2ff -13.02%,
+    rgba(0, 210, 255, 0) 103.77%
+  );
+}
+
+.plus {
+  background: linear-gradient(360deg, #52a49a -65.93%, #00cdac 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.offerrect {
+  background: linear-gradient(
+    180deg,
+    rgba(196, 196, 196, 0) -14.34%,
+    #c4c4c4 116.43%
+  );
+  backdrop-filter: blur(32.5px);
+}
+.box {
+  border: 1.75px solid;
+
+  border-image-source: linear-gradient(
+    115.34deg,
+    rgba(153, 165, 169, 0.2) 0%,
+    rgba(0, 0, 0, 0) 43.35%
+  );
+
+  box-sizing: border-box;
+
+  width: 379px;
+  height: 175px;
+
+  background: #ffffff;
+
+  box-shadow: 26px 26px 23px rgba(204, 210, 212, 0.36);
+  border-radius: 12px;
+}
+.phone {
+  width: 175px;
+  height: 175px;
+  border-radius: 100px;
+  background: #139980;
+  box-shadow: 0px 4px 63px 51px rgba(19, 153, 128, 0.43);
+}
+.phonerect {
+  width: 268px;
+  height: 175px;
+  background: linear-gradient(
+    180deg,
+    rgba(251, 251, 253, 0) -50%,
+    #fbfbfd 74.21%
+  );
+  filter: blur(10px);
+}
+.blog{
+  background: rgba(236, 238, 241, 0.75);
+border-radius: 12px;
+}
+.container1 {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  gap: 0px 10px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    ". . . .";
+}
+
+
+  .container {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 20px 0px;
+    grid-auto-flow: row;
+    justify-items: stretch;
+    grid-template-areas:
+      "."
+      ".";
+  }
+  .newcontainer {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 0px 200px; 
+    grid-template-areas: 
+      ". ."; 
+  }
+  .newcontainer1 {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "."
+      ".";
+  }
+  
+  
+    
